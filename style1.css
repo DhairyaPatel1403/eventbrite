@@ -1,0 +1,56 @@
+﻿/* Style for the Add Event button */
+#btnAddEvent {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Style for the GridView */
+#GridView1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    /* Style for table headers */
+    #GridView1 th {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Style for data rows */
+    #GridView1 td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+/* Style for TextBox controls */
+#txtEventKey {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Style for the Increment button */
+#btnIncrement {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style for the entire form */
+#form1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add hover effects for buttons */
+#btnAddEvent:hover, #btnIncrement:hover {
+    background-color: #0056b3;
+}

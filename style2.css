@@ -1,0 +1,32 @@
+﻿/* Body background color */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+/* Header style */
+h1 {
+    color: #007BFF; /* Blue color for the header text */
+    text-align: center;
+}
+
+/* Strong text (EventId) style */
+strong {
+    color: #007BFF; /* Blue color for the strong text */
+}
+
+/* Paragraph style for the link */
+p.text-center {
+    text-align: center;
+}
+
+/* Link style */
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+    /* Hover effect for links */
+    a:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
