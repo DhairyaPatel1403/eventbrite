@@ -26,7 +26,6 @@ namespace eventbrite
             // Create a new event object
             var eventadd = new @event
             {
-                event_id = 6,
                 event_name = eventName,
                 username = organizer,
                 participants = participants,
